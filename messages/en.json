@@ -1,0 +1,409 @@
+{
+  "Common": {
+    "Buttons": {
+      "back": "back",
+      "logIn": "log in",
+      "signUp": "sign up"
+    },
+    "Notifications": {
+      "successTitle": "Success",
+      "errorTitle": "Error",
+      "defaultErrorMessage": "An error has occurred. Please try again later"
+    },
+    "Legal": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of use"
+    }
+  },
+  "Auth": {
+    "Common": {
+      "logInPrompt": "Already one of us? \n If you've got an account, it's game time.",
+      "signUpPrompt": "Not a part of the family, yet?",
+      "inputs": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        }
+      },
+      "validationMessages": {
+        "email": {
+          "notUnique": "Guess what? You're already one of us! \nClick the login button below to dive back in.",
+          "required": "Enter your email address",
+          "pattern": "Please enter a valid email"
+        },
+        "password": {
+          "required": "Enter your password",
+          "pattern": "Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character.",
+          "minLength": "Password must have at least {chars} characters",
+          "maxLength": "Password is too long"
+        },
+        "nickname": {
+          "required": "Enter your nickname",
+          "pattern": "Oops, we only roll with A-Z and 0-9 here!",
+          "minLength": "Your gamer tag needs at least {chars} characters to join the clash!",
+          "maxLength": "Nickname is too long",
+          "notUnique": "That gamer tag is claimed! Try another one."
+        },
+        "dateOfBirth": {
+          "required": "Please enter your date of birth",
+          "min": "Platform is only eligible for users that are {year} years old and above",
+          "pattern": "Please enter a valid date of birth"
+        }
+      },
+      "passwordRequirements": {
+        "min": "Minimum eight characters",
+        "max": "Maximum 100 characters",
+        "uppercase": "One uppercase letter",
+        "lowercase": "One lowercase letter",
+        "number": "One number",
+        "special": "One special character"
+      }
+    },
+    "AgeVerification": {
+      "title": "Please enter your spawn date",
+      "subtitle": "Just making sure you're {year}+",
+      "inputs": {
+        "dateOfBirth": {
+          "label": "Date of Birth"
+        }
+      },
+      "submitButton": "confirm"
+    },
+    "SignUp": {
+      "title": "Kick off the adventure!",
+      "textWithDivider": "Or Continue With",
+      "twitchButtonLabel": "twitch",
+      "submitButton": "continue"
+    },
+    "VerifyEmail": {
+      "title": "Check your inbox!",
+      "subtitle": "We've fired off an email with a verification link. And hey, if you don't see it, take a peek in your spam folder.",
+      "resendPrompt": "<span>Still nothing?</span> Click <button>resend</button> and we'll give it another shot.",
+      "timerPrompt": "Resend code in: <timer></timer> sec"
+    },
+    "VerifyEmailExpired": {
+      "title": "Link expired...",
+      "subtitle": "It seems link is expired, please start sign up process again",
+      "buttonLabel": "start journey"
+    },
+    "CreatePassword": {
+      "title": "Craft your access key",
+      "subtitle": "Your password should be strong and something only you know.",
+      "submitButton": "next"
+    },
+    "CreateNickname": {
+      "title": "Design your in-game name",
+      "subtitle": "You're crafting your identity in the world of VoteClash. What will you be known as?",
+      "inputs": {
+        "nickname": {
+          "label": "Nickname",
+          "placeholder": "Enter Nickname",
+          "caption": "Min 4 characters. You can use latin letters & numbers"
+        }
+      },
+      "errorMessages": {
+        "invalidPreregistrationId": "Oops! Seems like your registration id has expired. Please try again"
+      },
+      "submitButton": "Kickstart the fun!"
+    },
+    "SignIn": {
+      "title": "Time to Play Again!",
+      "textWithDivider": "Or Continue With",
+      "validationMessages": {
+        "root": "Hmm, your login info is not matching up. Double-check and let's try again."
+      },
+      "resetPasswordButton": "reset password",
+      "submitButton": "Log in"
+    },
+    "RequestPasswordReset": {
+      "title": "Reset Password",
+      "submitButton": "Send Reset email",
+      "validationMessages": {
+        "email": "No account linked to this email. \nMaybe a typo?"
+      },
+      "successMessage": "Email sent successfully"
+    },
+    "ResetPassword": {
+      "title": "Craft your access key",
+      "subtitle": "Your password should be strong and something only you know.",
+      "submitButton": "Change Password"
+    },
+    "ResetPasswordSuccess": {
+      "title": "Perfect!",
+      "subtitle": "Your password swap was successful. Time to log in with your new key and jump back into the action!"
+    }
+  },
+  "Public": {
+    "Common": {
+      "navLinks": {
+        "aboutUs": "About Us",
+        "forStreamers": "For Streamers",
+        "faq": "FAQ"
+      },
+      "buttons": {
+        "startJourney": "start journey",
+        "partnerUp": "partner up",
+        "logIn": "log in"
+      }
+    },
+    "Footer": {
+      "joinPrompt": {
+        "streamer": "Join the Elite: Upgrade Streaming Game with LegendsClub!",
+        "viewer": "Join the Clash! \nGet in on the action \nand start predicting!"
+      },
+      "legalLinks": {
+        "privacyPolicy": "Privacy Policy",
+        "termsOfUse": "Terms of Use"
+      },
+      "copy": "VoteClash, Inc. {year}. All rights reserved."
+    },
+    "ForStreamers": {
+      "headingBanner": {
+        "title": "Elevate Your Stream Boost Viewer Engagement!",
+        "buttonLabel": "partner up"
+      },
+      "climbAboard": {
+        "text": "Climb aboard the LegendsClub – VoteClash's distinguished affiliate program – and ride the wave to legendary status in the streaming universe. \n\nAs part of the LegendsClub, you're not just affiliating; you're entering an empowered community of gaming enthusiasts and streamers committed to upping their game and amplifying their streams.",
+        "imageAlt": "climb-aboard"
+      },
+      "embarkBanner": {
+        "title": "Embark on a legendary journey with \nthe LegendsClub. ",
+        "subtitle": "Together, let's redefine the streaming experience!"
+      },
+      "amplifiedEngagement": {
+        "title": "Amplified Engagement",
+        "text": "Our unique voting system transforms your viewers from spectators to active participants. They'll predict, engage, and invest themselves in your streams, increasing viewer retention and community vibrancy.",
+        "imageAlt": "amplified-engagement"
+      },
+      "boostedVisibility": {
+        "title": "Boosted Visibility",
+        "text": "As a member of the LegendsClub, your streams gain exposure on our platform, attracting more traffic and potential fans your way. More viewers translate into more votes, greater interaction, and amplified fun!",
+        "imageAlt": "boosted-visibility"
+      },
+      "premiumMonetization": {
+        "title": "Premium Monetization",
+        "text": "It's not just about drawing an audience, but about capitalizing on your content. Our pot system allows you to reap a percentage of the profits, paving the way for a potent revenue stream.",
+        "imageAlt": "premium-monetization"
+      },
+      "exclusiveInvites": {
+        "title": "Exclusive Invites",
+        "text": "Get invited to exclusive tournaments and special events, giving you an edge over other streamers and increasing your exposure. Plus, with early access to new features, you'll always be at the forefront of innovation.",
+        "imageAlt": "exclusive-invites"
+      },
+      "howItWork": {
+        "title": "How does it work?",
+        "subtitle": "Whether you're a professional streamer or a beginner in the streaming arena, VoteClash will help you enhance viewer engagement and make their experience exciting.",
+        "steps": [
+          {
+            "title": "Partner Up",
+            "text": "VoteClash allows streamers to become partners through their affiliate program called LegendsClub."
+          },
+          {
+            "title": "Boost Viewer Engagement",
+            "text": "VoteClash takes viewer engagement to the next level with its voting system, allowing viewers to be fully involved by voting for their preferred outcomes, creating an immersive streaming experience."
+          },
+          {
+            "title": "Earn Rewards",
+            "text": "By being part of the VoteClash platform, streamers have the opportunity to earn rewards. The more active the viewers are, the higher the potential for streamers to earn rewards."
+          }
+        ]
+      },
+      "ourPartners": {
+        "title": "Our Partners"
+      },
+      "stats": [
+        {
+          "title": "100K+",
+          "subtitle": "Active viewers",
+          "bg": "yellow"
+        },
+        {
+          "title": "x3",
+          "subtitle": "Engagement increase",
+          "bg": "blue"
+        },
+        {
+          "title": "10k+",
+          "subtitle": "Daily votes",
+          "bg": "pink"
+        }
+      ]
+    },
+    "AboutUs": {
+      "headingBanner": {
+        "title": "Welcome to the VoteClash!",
+        "subtitle": "The Battleground of Predictions!"
+      },
+      "engage": {
+        "text": "The thrill-packed game within a game that's reshaping the way fans engage with their favorite streamers. Born out of a passion for gaming, we're here to amplify the excitement of every livestream and put you in the thick of the action.",
+        "imageAlt": "engage"
+      },
+      "partOfGame": {
+        "text": "At VoteClash, we don't just sit on the sidelines – we're part of the game. Our platform allows fans to predict gameplay outcomes, contributing to the narrative of each stream. With us, viewers get more than just a front-row seat – they become part of the adventure.",
+        "imageAlt": "part-of-game"
+      },
+      "boost": {
+        "text": "We believe in giving streamers the boost they need. Our platform drives traffic and enhances viewer engagement, keeping audiences hooked for longer. But we're not just about the numbers – we're here to build a vibrant community where streamers and fans can connect on a deeper level.",
+        "imageAlt": "boost"
+      },
+      "discover": {
+        "title": "Discover Your Arena",
+        "subtitle": "From fast-paced Battle Royale to tactical strategies, we've got a variety of games ready for your predictions."
+      },
+      "ourPartners": {
+        "title": "Our Partners"
+      }
+    },
+    "Faq": {
+      "imageAlt": "faq",
+      "content": [
+        {
+          "title": "General",
+          "items": [
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            }
+          ]
+        },
+        {
+          "title": "Channel Points & Voting",
+          "items": [
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            }
+          ]
+        },
+        {
+          "title": "VoteClash Ranked System",
+          "items": [
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            }
+          ]
+        },
+        {
+          "title": "Online Mode",
+          "items": [
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            }
+          ]
+        },
+        {
+          "title": "Streamer Affiliation (LegendsClub or EliteCircle)",
+          "items": [
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            }
+          ]
+        },
+        {
+          "title": "Safety & Legal",
+          "items": [
+            {
+              "title": "What is VoteClash",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            },
+            {
+              "title": "How do I sign up for VoteClash?",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid\n        aspernatur dolorem exercitationem facilis fugit, laboriosam maiores\n        nihil nulla officia optio quo, quos ratione recusandae rem repellendus tempore veniam veritatis vero! Accusantium asperiores at culpa deserunt\n        dolore dolores dolorum explicabo libero odit porro praesentium provident\n        sequi, voluptatum. Atque consequuntur dolorum est nisi placeat, possimus\n        repellendus tempora? Aliquam, aperiam architecto, beatae dignissimos\n        dolore, eaque et fuga fugiat in magni quia sit ullam velit? Aut\n        consequatur distinctio dolore facere minus odio quas quasi quia,\n        quisquam? Blanditiis facere nobis perferendis, quod repellat unde voluptas?"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
